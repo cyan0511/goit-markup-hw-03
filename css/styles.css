@@ -43,6 +43,7 @@ img {
 .link {
   text-decoration: none;
   color: var(--item-color);
+  padding: 24px 0 24px;
 }
 
 .contact-link {
@@ -102,7 +103,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--item-color);
   text-decoration: none;
-  padding: 24px 0 24px;
 }
 
 .logo {
@@ -130,6 +130,13 @@ img {
   color: #f4f4fd;
 }
 
+.section {
+  padding: 120px 0 120px;
+}
+
+.visually-hidden {
+  display: none;
+}
 /* 1st section */
 .our-service {
   opacity: 0px;
@@ -144,6 +151,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .order-service {
@@ -156,13 +164,18 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-service:hover,
 .order-service:focus {
   background-color: #404bbf;
 }
+/* end 1st section */
 
+/* 2nd section */
 .features {
   opacity: 0px;
 }
@@ -186,6 +199,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* end 2nd section */
 
 .what-we-do {
   font-size: 36px;
