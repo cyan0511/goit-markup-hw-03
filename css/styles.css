@@ -165,7 +165,7 @@ img {
 }
 
 .feature-item {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-description {
@@ -193,7 +193,7 @@ img {
 }
 
 .what-we-do-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 /* end 3rd section */
 
