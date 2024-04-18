@@ -257,7 +257,7 @@ img {
 .footer > .container .logo .studio {
   color: #f4f4fd;
 }
-.footer > .container .link {
+.footer > .container > .link {
   display: inline-block;
 }
 
