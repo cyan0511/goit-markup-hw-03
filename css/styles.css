@@ -318,7 +318,7 @@ img {
 }
 
 .service-list {
-  flex-wrap: flex;
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
