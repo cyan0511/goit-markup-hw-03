@@ -257,6 +257,9 @@ img {
 .footer > .container .logo .studio {
   color: #f4f4fd;
 }
+.footer > .container .link {
+  display: inline-block;
+}
 
 .footer > .marketing {
   font-size: 16px;
@@ -265,11 +268,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-}
-
-.footer > * {
-  margin-left: 156px;
-  opacity: 0px;
 }
 
 .filter-btn {
