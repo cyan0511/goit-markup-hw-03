@@ -135,7 +135,7 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  visibility: hidden;
 }
 /* 1st section */
 .our-service {
@@ -167,6 +167,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
 }
 
 .order-service:hover,
@@ -176,21 +177,13 @@ img {
 /* end 1st section */
 
 /* 2nd section */
-.features {
-  opacity: 0px;
-}
-
 .feature {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--item-color);
-}
-
-.feature > {
-  font-weight: 500;
-  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .feature-item {
@@ -198,10 +191,23 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  opacity: 0px;
+  width: calc((100% - 72px) / 4);
 }
 
+.feature-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.feature-item-list {
+  gap: 24px;
+}
 /* end 2nd section */
 
+/* 3rd section */
 .what-we-do {
   font-size: 36px;
   line-height: 1.11;
@@ -209,7 +215,10 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--item-color);
+  margin-bottom: 72px;
 }
+
+/* end 3rd section */
 
 .footer {
   opacity: 0px;
