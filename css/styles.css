@@ -294,7 +294,7 @@ img {
 }
 
 .portfolio {
-  padding-top: 96px;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-item {
@@ -315,6 +315,8 @@ img {
 
 .filter {
   justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .service-list {
