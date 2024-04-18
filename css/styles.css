@@ -44,6 +44,8 @@ img {
   text-decoration: none;
   color: var(--item-color);
   padding: 24px 0 24px;
+  display: block;
+  margin-bottom: 16px;
 }
 
 .contact-link {
